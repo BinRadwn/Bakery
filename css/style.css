@@ -1,0 +1,331 @@
+/* Start Main Rulez */
+* {
+  margin: 0px;
+}
+
+body p {
+  font-family: "Alegreya Sans", sans-serif;
+  color: #686868;
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+body h2 {
+  color: #303030;
+}
+
+.continer {
+  width: 90%;
+  margin: auto;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+/* End Main Rulez */
+
+/* Start Home */
+.Home .background-img {
+  height: 630px;
+  background-image: url(../images/Home-img/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.Home .background-img .navBar {
+  color: #fff;
+  padding: 20px 10px;
+}
+.Home .background-img .navBar .logo {
+  float: left;
+  width: 10%;
+}
+.Home .background-img .navBar ul {
+  list-style: none;
+  padding-left: 0px;
+  padding-right: 50px;
+  float: right;
+}
+.Home .background-img .navBar ul li {
+  float: left;
+  padding: 10px;
+}
+.Home .background-img .navBar ul li a {
+  color: #fff;
+}
+.Home .background-img .text {
+  text-align: center;
+  padding-top: 2%;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.Home .background-img .text p {
+  color: #ccc;
+  font-size: 25px;
+  padding: 20px 0px;
+}
+.Home .background-img .text h1 {
+  color: #fff;
+  font-size: 70px;
+  padding-top: 30px;
+}
+.Home .background-img .button {
+  text-align: center;
+}
+.Home .background-img .button .button1 {
+  padding: 15px 20px;
+  margin-right: 5px;
+  background-color: rgb(142 119 84);
+  border: none;
+  color: rgb(255 255 255);
+  font-size: 15px;
+}
+.Home .background-img .button .button2 {
+  padding: 15px 20px;
+  background: none;
+  color: rgb(255 255 255);
+  border: 2px solid #fff;
+  font-size: 15px;
+}
+
+/* End Home */
+
+/* Start About */
+.About {
+  margin: 50px;
+}
+.About .About-img {
+  width: 50%;
+  float: left;
+}
+.About .About-img img {
+  width: 100%;
+}
+.About .info {
+  float: left;
+  width: 50%;
+}
+.About .info h2 {
+  text-align: center;
+  margin: 40px 0 5px 40px;
+}
+
+.About .info > p {
+  margin: 0 0 10px 40px;
+}
+
+.About .info .hobbies {
+  margin: 0 0 10px 40px;
+}
+.About .info .hobbies .content {
+  float: left;
+  width: 100%;
+}
+.About .info .hobbies .content .icon {
+  float: left;
+  width: 10%;
+}
+.About .info .hobbies .content .icon img {
+  width: 90%;
+  margin: 30px 0 0 0;
+}
+.About .info .hobbies .content .text {
+  float: left;
+  width: 90%;
+}
+.About .info .hobbies .content .text p {
+  width: 55%;
+  padding-top: 35px;
+}
+/* End About */
+
+/* Start Location */
+.Location {
+  margin-top: 50px;
+  padding-bottom: 30px;
+  background-color: #f1f1f1;
+}
+.Location .location-content {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.Location .location-content h2 {
+  margin-top: 50px;
+  padding-top: 10px;
+}
+.Location .location-content .one {
+  padding: 20px 20px;
+  font-size: 18px;
+}
+.Location .location-content .two {
+  padding: 20px 20px;
+}
+.Location .location-img {
+  width: 60px;
+  float: left;
+}
+.Location .location-img img {
+  width: 1000%;
+}
+/* End Location */
+
+/* Start Baking */
+.Baking {
+  margin: 50px;
+  text-align: center;
+}
+.Baking h2 {
+  margin: 30px;
+}
+.Baking .P-one {
+  margin-bottom: 20px;
+}
+.Baking .baking-content {
+  width: 30%;
+  display: inline-block;
+  padding: 5px 17px;
+}
+.Baking .baking-content img {
+  width: 100%;
+}
+.Baking .baking-content h4 {
+  padding-top: 15px;
+}
+.Baking .baking-content p {
+  padding-top: 10px;
+}
+/* End Baking */
+
+/* Start Blog */
+.Blog {
+  margin-top: 50px;
+  background-color: #f8f8f8;
+}
+.Blog .info {
+  float: left;
+  width: 55%;
+}
+.Blog .info .Information {
+  text-align: center;
+  margin: 20px 10px 10px 0;
+}
+.Blog .info .Information h2 {
+  margin: 100px 0 30px;
+}
+.Blog .info .contact-details .content {
+  float: left;
+  width: 100%;
+}
+.Blog .info .contact-details .content > p {
+  margin: 30px 0 30px;
+}
+.Blog .info .contact-details .content .icon {
+  float: left;
+  width: 10%;
+}
+.Blog .info .contact-details .content .icon img {
+  width: 60%;
+  margin-top: 10px;
+}
+.Blog .info .contact-details .content .text {
+  float: left;
+  width: 90%;
+}
+.Blog .info .contact-details .content .text p {
+  width: 55%;
+  margin-top: 15px;
+}
+.Blog .Blog-img {
+  float: left;
+  width: 45%;
+}
+.Blog .Blog-img img {
+  width: 100%;
+  margin: 50px 0 50px 10px;
+}
+
+/* End Blog */
+
+/* Start topFooter */
+.top-footer {
+  margin-top: 50px;
+  background-color: #403d38;
+}
+.top-footer .Box1 {
+  float: left;
+  width: 24%;
+}
+.top-footer .Box1 h2 {
+  color: #fff;
+  margin: 30px 0 30px 0;
+  font-size: 20px;
+}
+.top-footer .Box1 P {
+  line-height: 2;
+  color: #969696;
+  font-size: 20px;
+}
+.top-footer .Box1 .P-one2 {
+  padding-top: 15px;
+}
+
+.top-footer .Box2 {
+  float: left;
+  width: 24%;
+}
+.top-footer .Box2 h2 {
+  color: #fff;
+  margin: 30px 0 30px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.top-footer .Box2 .content {
+  float: left;
+  width: 100%;
+}
+.top-footer .Box2 .content .icon {
+  float: left;
+  width: 10%;
+}
+.top-footer .Box2 .content .icon img {
+  width: 80%;
+  margin: 0 30px 30px;
+}
+.top-footer .Box2 .content .text {
+  padding-left: 60px;
+}
+.top-footer .Box2 .content .text p {
+  width: 90%;
+  color: #969696;
+}
+.top-footer .Box2 .content a {
+  color: #969696;
+}
+
+/* End topFotter */
+
+/* Start Fotter */
+
+.Contact2 {
+  background-color: #353330;
+}
+.copyright {
+  background-color: #353330;
+  text-align: center;
+}
+.copyright .img1 {
+  width: 20%;
+  padding-top: 50px;
+  text-align: center;
+}
+.copyright .img1 img {
+  width: 100%;
+}
+.copyright p {
+  padding: 10px;
+}
+/* End Fotter */
